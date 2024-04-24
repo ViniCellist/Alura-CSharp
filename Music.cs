@@ -10,7 +10,7 @@ music2.Artist = "Slipknot";
 music2.Duration = 367;
 music2.Available = false;
 
-music1 music3 = new Music();
+Music music3 = new Music();
 music3.Name = "Warriors";
 music3.Artist = "Imagine Dragons";
 music3.Duration = 350;

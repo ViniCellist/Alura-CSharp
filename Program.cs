@@ -6,7 +6,7 @@
     public bool Available { get; set; }
 
     public string Description =>
-        $"A música { Name } percente à banda { Artist }"
+        $"A música { Name } percente à banda { Artist }";
 
     public void ShowTechDetail()
     {
@@ -19,7 +19,7 @@
         } else
         {
             Console.WriteLine("Adquira o plano Plus+");
-        };
-    };
+        }
+    }
     
 };
