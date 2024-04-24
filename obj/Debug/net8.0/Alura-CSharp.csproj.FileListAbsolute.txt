@@ -1,0 +1,15 @@
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\bin\Debug\net8.0\Alura-CSharp.exe
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\bin\Debug\net8.0\Alura-CSharp.deps.json
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\bin\Debug\net8.0\Alura-CSharp.runtimeconfig.json
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\bin\Debug\net8.0\Alura-CSharp.dll
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\bin\Debug\net8.0\Alura-CSharp.pdb
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.AssemblyInfoInputs.cache
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.AssemblyInfo.cs
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.sourcelink.json
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.dll
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\refint\Alura-CSharp.dll
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.pdb
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\Alura-CSharp.genruntimeconfig.cache
+C:\Users\vsdua\OneDrive\Área de Trabalho\Dev\Alura-CSharp\obj\Debug\net8.0\ref\Alura-CSharp.dll
