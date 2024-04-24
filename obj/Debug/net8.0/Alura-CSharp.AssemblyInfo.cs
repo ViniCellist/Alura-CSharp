@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alura-CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4dff3f14a7ba2837eb227e76ccfbd0780890925")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0583f87dc06ede4e444371c15f820f7c06356f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alura-CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alura-CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

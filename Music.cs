@@ -1,21 +1,15 @@
+Album albumDoQueen = new Album();
+albumDoQueen.Name = "A night at the opera";
+
 Music music1 = new Music();
-music1.Name = "Numb";
-music1.Artist = "Linkin Park";
-music1.Duration = 273;
-music1.Available = true;
+music1.Name = "Love of my life";
+music1.TotalTime = 213;
 
 Music music2 = new Music();
-music2.Name = "Before I forget";
-music2.Artist = "Slipknot";
-music2.Duration = 367;
-music2.Available = false;
+music2.Name = "Bohemian Rhapsody";
+music2.TotalTime = 354;
 
-Music music3 = new Music();
-music3.Name = "Warriors";
-music3.Artist = "Imagine Dragons";
-music3.Duration = 350;
-music3.Available = true;
+albumDoQueen.AdicionarMusica(music1);
+albumDoQueen.AdicionarMusica(music2);
 
-music1.ShowTechDetail();
-music2.ShowTechDetail();
-music3.ShowTechDetail();
+albumDoQueen.ShowAlbumMusic();
