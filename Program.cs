@@ -1,25 +1,13 @@
-﻿class Music
-{
-    public string Name { get; set; }
-    public string Artist { get; set; }
-    public int Duration { get; set; }
-    public bool Available { get; set; }
+﻿Banda queen = new Banda("Queen");
+Album albumDoQueen = new Album("A night at the opera");
+Music music1 = new Music(queen, "Love of my life", 213);
+Music music2 = new Music(queen, "Bohemian Rhapsody", 354);
 
-    public string Description =>
-        $"A música { Name } percente à banda { Artist }";
+albumDoQueen.AdicionarMusica(music1);
+albumDoQueen.AdicionarMusica(music2);
+queen.AdicionarAlbum(albumDoQueen);
 
-    public void ShowTechDetail()
-    {
-        Console.WriteLine($"Nome: { Name }");
-        Console.WriteLine($"Artista: { Artist }");
-        Console.WriteLine($"Duration: { Duration }");
-        if ( Available )
-        {
-            Console.WriteLine("Disponível no plano.");
-        } else
-        {
-            Console.WriteLine("Adquira o plano Plus+");
-        }
-    }
-    
-};
+music1.ShowTechDetail();
+music2.ShowTechDetail();
+albumDoQueen.ShowAlbumMusic();
+queen.ExibirDiscografia();

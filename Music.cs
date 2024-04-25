@@ -1,15 +1,33 @@
-Album albumDoQueen = new Album();
-albumDoQueen.Name = "A night at the opera";
+class Music
+{
 
-Music music1 = new Music();
-music1.Name = "Love of my life";
-music1.Duration = 213;
+    public Music(Banda artista, string name, int duration)
+    {
+        Artist = artista;
+        Name = name;
+        Duration = duration;
+    }
 
-Music music2 = new Music();
-music2.Name = "Bohemian Rhapsody";
-music2.Duration = 354;
+    public string Name { get; }
+    public Banda Artist { get; }
+    public int Duration { get; }
+    public bool Available { get; set; }
 
-albumDoQueen.AdicionarMusica(music1);
-albumDoQueen.AdicionarMusica(music2);
+    public string Description =>
+        $"A música { Name } percente à banda { Artist }";
 
-albumDoQueen.ShowAlbumMusic();
+    public void ShowTechDetail()
+    {
+        Console.WriteLine($"Nome: { Name }");
+        Console.WriteLine($"Artista: { Artist.Nome }");
+        Console.WriteLine($"Duration: { Duration }");
+        if ( Available )
+        {
+            Console.WriteLine("Disponível no plano.");
+        } else
+        {
+            Console.WriteLine("Adquira o plano Plus+");
+        }
+    }
+    
+};
