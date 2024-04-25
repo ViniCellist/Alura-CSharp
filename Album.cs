@@ -6,13 +6,13 @@ class Album
 
     public void AdicionarMusica(Music musica)
     {
-        musics.Add(musica);
+        musicas.Add(musica);
     }
 
     public void ShowAlbumMusic()
     {
-        Console.WriteLine($"Lista d emúsicas do álbum {Name}: \n");
-        foreach (var musica in musics)
+        Console.WriteLine($"Lista de músicas do álbum {Name}: \n");
+        foreach (var musica in musicas)
         {
             Console.WriteLine($"Musica: {musica.Name}");
         }
