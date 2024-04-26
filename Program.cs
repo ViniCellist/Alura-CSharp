@@ -1,13 +1,15 @@
-﻿Banda queen = new Banda("Queen");
-Album albumDoQueen = new Album("A night at the opera");
-Music music1 = new Music(queen, "Love of my life", 213);
-Music music2 = new Music(queen, "Bohemian Rhapsody", 354);
+﻿Episodio ep1 = new(1, "Técnicas de facilitação", 45);
+ep1.AdicionarConvidados("Maria");
+ep1.AdicionarConvidados("Marcelo");
+Console.WriteLine(ep1.Resumo);
 
-albumDoQueen.AdicionarMusica(music1);
-albumDoQueen.AdicionarMusica(music2);
-queen.AdicionarAlbum(albumDoQueen);
+Episodio ep2 = new(2, "Técnicas de aprendizado", 67);
+ep2.AdicionarConvidados("Fernando");
+ep2.AdicionarConvidados("Marcos");
+ep2.AdicionarConvidados("Flavia");
+Console.WriteLine(ep2.Resumo);
 
-music1.ShowTechDetail();
-music2.ShowTechDetail();
-albumDoQueen.ShowAlbumMusic();
-queen.ExibirDiscografia();
+Podcast podcast = new("Podcast especial", "Daniel");
+podcast.AdicionarEpisodios(ep1);
+podcast.AdicionarEpisodios(ep2);
+podcast.ExibirDetalhes();
